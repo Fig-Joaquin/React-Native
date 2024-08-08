@@ -19,7 +19,7 @@ export const useAuthStore = create<authState>()((set) => ({
     token: undefined,
     user: undefined,
 
-    login: (email: string, password: string) => {
+    login: (email: string) => {
 
         set({
             status:"Autenticado",

@@ -14,7 +14,7 @@ export const LoginPage = () => {
       setTimeout(() => {
         logout();
       }, 1500);
-    },[])
+    })
 
     if (authStatus === "Chequeando") {
         return <h3>Verificando...</h3>
